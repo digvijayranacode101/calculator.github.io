@@ -1,0 +1,46 @@
+.mainBody{
+    height: 350px;
+    width: 200px;
+    background-color: cornsilk;
+    border: .5px solid black;
+    padding: 6px;
+}
+.screen{
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 97.5px;
+    width: 197.5px;
+    background-color:gold;
+    padding: 1.25px;
+}
+.allBtns{
+    height: 247.5px;
+    width: 197.5px;
+    background-color: grey;
+    padding: 1.25px;
+    display: inline-block;
+}
+.bigbtn{
+    height: 47.5px;
+    width: 97.5px;
+}
+.nrmlbtn{
+    height: 47.5px;
+    width: 45px;
+}
+.aclear {
+    width: 94px;
+    background-color: hotpink;
+}
+.equal{
+    width: 94px;
+    background-color: greenyellow;
+}
+.row{
+    display: inline-block;
+    padding: 0.5px;
+    margin: .25px;
+}
